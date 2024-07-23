@@ -1,0 +1,21 @@
+// git commands
+git init
+git branch -m main
+git add .
+git commit -m 'first commit with initial api'
+git remote add origin 'https://github.com/die711/fastapi-task-api-mongo.git'
+git push origin -u main
+git pull
+
+
+// python, pip commands
+python -m venv .env
+pip freeze  > requirements.txt
+pip install pydantic_settings
+pip install motor
+pip install PyJwt
+pip install -r requirements.txt
+
+
+//video course
+https://www.youtube.com/watch?v=7WE6v2EKm7M&t=3345s
